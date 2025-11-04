@@ -9,6 +9,9 @@ int main() {
   //var carta 01  
   char codigo[4];
   int  populacao1;
+  float area1;
+  float pontos1;
+
 
   // Área para entrada de dados
 
