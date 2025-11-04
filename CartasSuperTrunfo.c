@@ -6,8 +6,10 @@
 
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
-  printf("Cartas Super Trunfo\n");
-  printf("Novo Commit");
+  //var carta 01  
+  char codigo[4];
+  int  populacao1;
+
   // Área para entrada de dados
 
   // Área para exibição dos dados da cidade
