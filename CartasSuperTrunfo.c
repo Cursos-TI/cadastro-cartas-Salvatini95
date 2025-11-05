@@ -24,20 +24,20 @@ int main() {
 
   // Área para entrada de dados
   //cadastro carta 01
-  printf("Digite o codigo a cidade (ex: A01): ");
+  printf("Digite o codigo a cidade (ex: A01): \n");
   scanf("%s", codigo);
 
-  printf("População: ");
+  printf("População: \n");
   scanf("%d", &populacao1);
 
-  printf("Area (Km²): ");
+  printf("Area (Km²): \n");
   scanf("%f", &area1);
 
   printf("PIB (Em Bilhões): \n");
   scanf("%f", &pib1);
 
-  printf("Pontos Turisticos: ");
-  scanf("%s", &pontos1);
+  printf("Pontos Turisticos: \n");
+  scanf("%d", &pontos1);
 
   printf("\n--------------------------------------\n\n");
 
