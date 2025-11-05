@@ -41,6 +41,25 @@ int main() {
 
   printf("\n--------------------------------------\n\n");
 
+  //cadastro carta 02
+  printf("Digite o codigo a cidade (ex: A01): \n");
+  scanf("%s", codigo2);
+
+  printf("População: \n");
+  scanf("%d", &populacao2);
+
+  printf("Area (Km²): \n");
+  scanf("%f", &area2);
+
+  printf("PIB (Em Bilhões): \n");
+  scanf("%f", &pib2);
+
+  printf("Pontos Turisticos: \n");
+  scanf("%d", &pontos2);
+
+  printf("\n--------------------------------------\n\n");
+
+
   // Área para exibição dos dados da cidade
 
 return 0;
