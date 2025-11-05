@@ -61,6 +61,13 @@ int main() {
 
 
   // Área para exibição dos dados da cidade
+  printf("\n=== CARTAS CADASTRADAS ===\n");
+
+  printf("\nCarta %s\n", codigo);
+  printf("População: %d\n", populacao1);
+  printf("Area: %.2f km²\n", area1);
+  printf("PIB: %.2f bi\n", pib1);
+  printf("Pontos Turisticos: %d\n", pontos1);
 
 return 0;
 } 
