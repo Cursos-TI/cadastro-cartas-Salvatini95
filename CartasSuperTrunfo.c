@@ -27,6 +27,20 @@ int main() {
   printf("Digite o codigo a cidade (ex: A01): ");
   scanf("%s", codigo);
 
+  printf("População: ");
+  scanf("%d", &populacao1);
+
+  printf("Area (Km²): ");
+  scanf("%f", &area1);
+
+  printf("PIB (Em Bilhões): \n");
+  scanf("%f", &pib1);
+
+  printf("Pontos Turisticos: ");
+  scanf("%s", &pontos1);
+
+  printf("\n--------------------------------------\n\n");
+
   // Área para exibição dos dados da cidade
 
 return 0;
