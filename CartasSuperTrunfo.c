@@ -10,10 +10,22 @@ int main() {
   char codigo[4];
   int  populacao1;
   float area1;
-  float pontos1;
+  float pib1;
+  int pontos1;
 
+   //var carta 02
+  char codigo2[4];
+  int  populacao2;
+  float area2;
+  float pib2;
+  int pontos2;
+
+  printf("===== SUPER TRUNFO - NIVEL NOVATO =====\n\n");
 
   // Área para entrada de dados
+  //cadastro carta 01
+  printf("Digite o codigo a cidade (ex: A01): ");
+  scanf("%s", codigo);
 
   // Área para exibição dos dados da cidade
 
