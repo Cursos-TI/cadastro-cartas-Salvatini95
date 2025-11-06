@@ -42,7 +42,7 @@ int main() {
   printf("\n--------------------------------------\n\n");
 
   //cadastro carta 02
-  printf("Digite o codigo a cidade (ex: A01): \n");
+  printf("Digite o codigo a cidade (ex: A02): \n");
   scanf("%s", codigo2);
 
   printf("População: \n");
@@ -68,6 +68,12 @@ int main() {
   printf("Area: %.2f km²\n", area1);
   printf("PIB: %.2f bi\n", pib1);
   printf("Pontos Turisticos: %d\n", pontos1);
+
+  printf("\nCarta %s\n", codigo2);
+  printf("População: %d\n",populacao2);
+  printf("Area: %.2f km²\n", area2);
+  printf("PIB: %.2f bi\n", pib2);
+  printf("Pontos Turisticos: %d\n", pontos2);
 
 return 0;
 } 
