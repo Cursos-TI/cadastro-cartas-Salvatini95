@@ -8,14 +8,14 @@ int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
   //var carta 01  
   char codigo[4];
-  int  populacao1;
+  float  populacao1;
   float area1;
   float pib1;
   int pontos1;
 
    //var carta 02
   char codigo2[4];
-  int  populacao2;
+  float  populacao2;
   float area2;
   float pib2;
   int pontos2;
@@ -28,7 +28,7 @@ int main() {
   scanf("%s", codigo);
 
   printf("População: \n");
-  scanf("%d", &populacao1);
+  scanf("%f", &populacao1);
 
   printf("Area (Km²): \n");
   scanf("%f", &area1);
@@ -46,7 +46,7 @@ int main() {
   scanf("%s", codigo2);
 
   printf("População: \n");
-  scanf("%d", &populacao2);
+  scanf("%f", &populacao2);
 
   printf("Area (Km²): \n");
   scanf("%f", &area2);
@@ -64,13 +64,13 @@ int main() {
   printf("\n=== CARTAS CADASTRADAS ===\n");
 
   printf("\nCarta %s\n", codigo);
-  printf("População: %d\n", populacao1);
+  printf("População: %f\n", populacao1);
   printf("Area: %.2f km²\n", area1);
   printf("PIB: %.2f bi\n", pib1);
   printf("Pontos Turisticos: %d\n", pontos1);
 
   printf("\nCarta %s\n", codigo2);
-  printf("População: %d\n",populacao2);
+  printf("População: %f\n",populacao2);
   printf("Area: %.2f km²\n", area2);
   printf("PIB: %.2f bi\n", pib2);
   printf("Pontos Turisticos: %d\n", pontos2);
