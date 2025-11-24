@@ -7,14 +7,14 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
   //var carta 01  
-  char codigo[4];
+  char codigo[50];
   float  populacao1;
   float area1;
   float pib1;
   int pontos1;
 
    //var carta 02
-  char codigo2[4];
+  char codigo2[50];
   float  populacao2;
   float area2;
   float pib2;
